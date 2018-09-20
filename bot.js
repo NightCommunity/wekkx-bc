@@ -104,7 +104,7 @@ client.on("message", message => {
 });
 client.on('message',async msg => {//Alpha Codes
 //Alpha Codes//Alpha Codes//Alpha Codes//Alpha Codes//Alpha Codes
-  var prefix = "!";//Alpha Codes
+  var prefix = "w";//Alpha Codes
 //Alpha Codes
   if(msg.content.startsWith(prefix + "user")) {//Alpha Codes
   if(!msg.guild.member(msg.author).hasPermissions('MANAGE_CHANNELS')) return msg.reply('❌ **go play minecraft**');
